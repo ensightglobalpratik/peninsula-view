@@ -30,7 +30,7 @@
 					<?php wp_nav_menu(array('menu_class' => 'enumenu_ul menu', 'menu' => 'Main Menu'));
 					?>
 					<a href="tel:132278" title="Call Us" class="call-btn">CALL 13 BAPTCARE (13 22 78)</a>
-					<a href="#" class="btn enq-btn">ENQUIRE</a>
+					<a href="#" title="Enquire" class="btn enq-btn">ENQUIRE</a>
 				</div>
 			</div>
 		</div>
