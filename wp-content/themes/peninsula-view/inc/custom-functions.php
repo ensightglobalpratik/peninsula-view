@@ -23,6 +23,14 @@ if (function_exists('acf_add_options_page')) {
         'parent_slug' => 'theme-general-settings',
 	) );
 }
+/*************
+ * SVG filter
+ **************/
+function peninsula_view_cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'peninsula_view_cc_mime_types');
 /*****************
  * custom logo url
  ******************/
@@ -30,7 +38,6 @@ function peninsula_view_loginpage_custom_link() {
     $home_url = home_url();
     return $home_url;
 }
-
 add_filter('login_headerurl', 'peninsula_view_loginpage_custom_link');
 /***********************
  * Remove css js version
@@ -59,12 +66,12 @@ function peninsula_view_my_login_logo() {
     $admin_dashboard_logo = get_field('admin_dashboard_logo', 'option');
     echo '<style type="text/css">
 		body{
-                    background: #071D4B !important;
+                    background:#D4D0CB !important;
                     }
                     .login form{    background: #f3f3f3 !important;}
                     .login h1 a {
                     background-image: url(' . $admin_dashboard_logo . ') !important;
-                    background-size: 84px auto !important;
+                    background-size: 336px auto !important;
                     width: auto !important;
 		}
                 body.login div#login form#loginform {

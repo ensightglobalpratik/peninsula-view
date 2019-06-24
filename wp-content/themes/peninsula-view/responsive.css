@@ -1,0 +1,268 @@
+@media (max-width: 1465px) {
+	
+}
+@media (max-width: 1199px) {
+	
+}
+@media (max-width: 991px) {
+	.menu-icon {
+	    display: block;
+	}
+	.enumenu_ul{
+		position: absolute;
+	    width: 100%;
+	    left: 0px;
+	    text-align: center;
+	    z-index: -1;
+	    background-color: #fff;
+	    top: 100%;
+	    padding: 50px 0;
+	}
+	.main-navigation ul{
+		padding: 50px 0;
+	}
+	.enumenu_ul li{
+		display: block;
+		padding-bottom: 30px;
+	}
+	.enumenu_ul li:last-of-type{
+		padding-bottom: 0;
+	}
+.call-btn{
+	display: none;
+}
+#header .row{
+	margin: 0 -15px;
+}
+.logo {
+width: 374px;
+height: 94px;
+}
+.header-right-sec{
+	margin: 12px 0;
+}
+.enq-btn{
+	margin-right: 25px;
+}
+.banner-left-detail img{
+	width: 406px;
+height: 172px;
+}
+.banner-right-detail{
+	width: 159px;
+height: 226px;
+}
+#banner-slider .slick-dots{
+	left: 15px;
+}
+.banner-down-arrow{
+	margin-left: 15px;
+}
+.mid-content-strip-sec a{
+	font-size: 16px;
+}
+.mid-content-strip-sec{
+	padding: 15px 0;
+}
+.community-sec .col-4{
+	-ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+.community-sec .col-8{
+	-ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    max-width: 55%;
+}
+.community-content {
+    max-width: 75%;
+}
+.community-first-col,
+.community-second-col{
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.community-first-col figure:first-of-type{
+    width: 95%;
+    padding-bottom: 72%;
+}
+.community-first-col figure:last-of-type{
+	width: 95%;
+    padding-bottom: 72%;
+}
+.community-second-col figure:first-of-type{
+    width: 100%;
+    padding-bottom: 72%;
+}
+.community-second-col figure:last-of-type{
+	width: 100%;
+    padding-bottom: 72%;
+}
+.community-sec {
+    padding: 55px 0 40px;
+}
+h4{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+h2{
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+p, li {
+    font-size: 14px;
+    line-height: 20px;
+}
+.community-content h2{
+	margin-bottom: 45px;
+}
+.full-banner{
+	padding-bottom: 23%;
+}
+.apartments-sec {
+    padding: 45px 0 55px 0;
+}
+.slick-dots li button{
+	width: 8px;
+	height: 8px;
+}
+#apartments-slider .slick-dots{
+	top: calc(85% + 20px);
+}
+.apartments-details{
+	padding-top: 30px;
+}
+.apartments-details .col-4{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.apt-features-list {
+    margin-left: 0;
+}
+.indicative-sec .col-6{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.indicative-deatils{
+	padding: 50px 50px 40px 50px;
+}
+.ul_accordion li a.acco_link{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.floor-img{
+	padding: 25px 0;
+}
+.location-sec .col-8,
+.location-sec .col-4{
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.slick-prev, .slick-next{
+	display: none;
+}
+.location-sec {
+    padding: 45px 0 35px 0;
+}
+.location-details{
+	padding-top: 30px;
+}
+.location-details h4{
+	margin-bottom: 10px;
+}
+#location-slider .slick-dots{
+	top: calc(79% + 15px);
+}
+.visit-box p, .contact-box p {
+    max-width: 75%;
+}
+.display-bg-img{
+	padding-bottom: 80%;
+    background-size: cover;
+}
+.map-sec-strip a:after{
+	right: 39%;
+}
+.desplay-sec{
+	padding: 50px 0 45px 0;
+}
+.map-sec iframe{
+	height: 200px;
+}
+.enquire-sec{
+	padding: 45px 0 40px;
+}
+.enquire-sec p {
+    max-width: 74%;
+    margin: 0px auto 12px auto;
+}
+.enquire-form{
+	padding-top: 20px;
+}
+.testimonial-sec{
+	padding: 25px 0;
+	background-position-x: -35%;
+}
+h3{
+	font-size: 20px;
+}
+.testimonial-content h3{
+	line-height: 22px;
+    max-width: 50%;
+    margin: 0 auto 15px auto;
+}
+.testimonial-content p{
+	font-size: 13px;
+}
+.about-sec .col-4{
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about-sec {
+    padding: 40px 0 85px 0;
+}
+.about-sec h2 {
+    max-width: 100%;
+}
+.comminities-details{
+	margin-left: 0;
+	width: 50%;
+}
+.footer-strip p{
+	font-size: 10px;
+}
+.footer-strip{
+	padding: 5px 0 5px 0;
+}
+.footer-strip a img{
+	width: 234px;
+	height: 28px;
+}
+.footer-sec {
+    padding-top: 15px;
+}
+.footer-sec p{
+	font-size: 10px;
+	max-width: 100%;
+}
+.further-enquiries{
+	margin-bottom: 30px;
+}
+}
+@media (max-width: 767px) {
+	
+}
+
+@media (max-width: 640px) {
+	
+}
+
+@media (max-width: 480px) {
+
+}
